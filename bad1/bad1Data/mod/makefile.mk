@@ -13,6 +13,14 @@ SRC_MOD := \
 	$(WD)mod2.mod \
 	$(WD)random.mod \
 	$(WD)track_redirect.mod \
+	$(WD)FFA_Mirror.mod \
+	$(WD)FroomLoader.mod \
+	$(WD)General.mod \
+	$(WD)Items.mod \
+	$(WD)MenuLoader.mod \
+	$(WD)NoMercy.mod \
+	$(WD)Worldwides.mod \
+	$(WD)omitted.mod \
 
 $(BUILD)/mod%.bin: $(BUILD)/mod%.elf
 	$(LOG)
