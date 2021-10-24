@@ -41,10 +41,10 @@ jobs:
       - name: Compile
         run: |
           PATH=$(pwd)/devkitpro/devkitPPC/bin:$PATH DEVKITPPC=$(pwd)/devkitpro/devkitPPC DEVKITPRO=$(pwd)/devkitpro make rmce
-      - name: Upload compiled Brainslug binaries
+      - name: Upload compiled CTCODE binaries
         uses: actions/upload-artifact@v2
         with: 
-          name: brainslug
+          name: Battle-Mod
           path: |
             bin/
             szs-tools/
